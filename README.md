@@ -12,6 +12,7 @@ UNIX(terminal) system has a standard stream pattern, input-command-output stream
 
 For detailed usage, see [code example](https://github.com/mgeg/communication-streams/blob/main/Streams.ipynb)
 
+# Appendix
 Group members: [Wei](https://github.com/weihe13),  [Xinyue](https://github.com/mgeg),  [Yoli](https://github.com/hereisyoli)
 
 Reference:  [Streams/pipes/redirection in the terminal](https://github.com/parrt/msds692/blob/master/notes/streams.pdf)
