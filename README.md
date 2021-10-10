@@ -14,6 +14,12 @@ Here is how we operate terminal streams:
 
 For detailed usage, see [code example](https://github.com/mgeg/communication-streams/blob/main/Streams.ipynb)
 
+See the efficiency of streams and I/O redirection:
+
+![Example image of efficiency](pictures/efficiency.png)
+
+This exemple apparently shows you how efficient stream and I/O redirection is. To achieve the same goal, maybe you will need to import pandas first and then write several lines of codes in Python. With streams and I/O redirection, you just need one command line. Just use ‘grep’ to tell the computer to read data from a csv file and find out the rows having your target information. Then, use a ‘|’ to tell the computer we are not done and write another terminal program such as only selecting the top 5 lines of results as output. At last, use a ‘>’ to save this output into a new text file.  
+
 # Appendix
 Group members: [Wei](https://github.com/weihe13),  [Xinyue](https://github.com/mgeg),  [Yoli](https://github.com/hereisyoli)
 
