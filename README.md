@@ -8,7 +8,7 @@ Computer programmers need to get along with data analysis on daily work. But som
 
 UNIX(terminal) system has a standard stream pattern, input-command-output stream. While programming, we can use some commands to manipulate the streams and redirect the input/output of the program. We use “|”, called pipe, passing the output of one program to the input of another program, i.e. ls | wc, passing the listed files to word count. Also, we use “>/<” sign to save the output to a file or take a file as input to a program, i.e. python foo.py > result.txt, saving the output of foo.py to the result.txt file. The streams and i/o redirection are the foundation of terminal operation that helps us more efficiently run the program as well as combine programs and files.
 
-How we operate terminal streams:
+Here is how we operate terminal streams:
 
 ![Example image from pipe](pictures/code.png)
 
